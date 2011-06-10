@@ -1,0 +1,16 @@
+<div class="span-24 notice">
+  <a href="http://vroy.ca/">vroy.ca</a> stats gathered from the Pindgom API.
+</div>
+
+<div class="span-24">
+  <p><b>Uptime:</b> #{@uptime_percentage}</p>
+  <p><b>Average Response Time:</b> #{@average_response_time}ms</p>
+  <p>
+    <b>Last 10 outages:</b>
+    <ul>
+      <?r @outages.each do |outage| ?>
+        <li>#{outage}</li>
+      <?r end ?>
+    </ul>
+  </p>
+</div>

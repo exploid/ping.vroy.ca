@@ -1,0 +1,69 @@
+@import url("http://proto.vroy.ca/css/blueprint/screen.css") screen, projection;
+@import url("http://proto.vroy.ca/css/blueprint/vroy.ca.css") screen, projection;
+@import url("http://proto.vroy.ca/css/cssbuttons/buttons.css");
+
+#header h1 {
+  text-align: right;
+}
+
+.header-separator {
+  height: 3px;
+  background-color: black;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+a, a:visited {
+  color: #2D6FD2;
+  text-decoration:none;
+}
+a:hover {
+  background-color: white;
+  text-decoration: underline;
+}
+
+ul.no_style {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  list-style-type: square;
+}
+
+ul.fancy_links {
+  margin: 0px;
+  padding: 0px;
+}
+ul.fancy_links li {
+  display: inline;
+  border-right: 1px solid black;
+  padding-left: 0px;
+  padding-right:4px;
+  
+}
+ul.fancy_links li:last-child {
+  border-right: none;
+}
+
+#footer hr {
+  margin: 5px 0px 5px 0px;
+}
+#footer ul { display: inline; }
+#footer { margin-bottom: 10px; }
+
+/* Style goes here */
+#body h1 { font-size: 24px; }
+#body h2 { font-size: 18px; }
+#body h3 { font-size: 16px; }
+
+pre {
+  border: 1px solid grey;
+  background-color: #eee;
+  margin-left: 20px;
+}
+
+p code {
+  border: 1px solid grey;
+  background-color: #eee;
+}
